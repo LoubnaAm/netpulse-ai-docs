@@ -1,36 +1,61 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "NETPULSE AI",
   "theme": "mint",
+  "name": "NetPulse AI",
+  "description": "Le radar intelligent du réseau de l'entreprise — documentation simple",
   "colors": {
-    "primary": "#18B7A0",
-    "light": "#18B7A0",
-    "dark": "#0E7C70"
+    "primary": "#2E74B5",
+    "light": "#5B9BD5",
+    "dark": "#1F3864"
+  },
+  "favicon": "/favicon.svg",
+  "icons": {
+    "library": "lucide"
   },
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Découvrir NETPULSE",
-        "pages": [
-          "index",
-          "fonctionnalites",
-          "architecture"
-        ]
-      },
-      {
-        "group": "Utiliser l’application",
-        "pages": [
-          "installation",
-          "modules",
-          "collecte-temps-reel"
-        ]
-      },
-      {
-        "group": "Aide",
-        "pages": [
-          "depannage"
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Démarrer ici",
+            "pages": [
+              "index",
+              "probleme"
+            ]
+          },
+          {
+            "group": "Comprendre le projet",
+            "pages": [
+              "comment-ca-marche",
+              "admin-vs-satellite",
+              "intelligence-artificielle"
+            ]
+          },
+          {
+            "group": "Au quotidien",
+            "pages": [
+              "utilisation",
+              "avantages"
+            ]
+          }
         ]
       }
     ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:contact@entreprise.com"
+      }
+    ]
+  },
+  "footer": {
+    "socials": {}
   }
 }

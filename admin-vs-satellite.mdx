@@ -1,0 +1,36 @@
+---
+title: "Admin vs Satellite"
+description: "Les deux types de machines du projet, et ce que fait chacune"
+icon: "network"
+---
+
+C'est la distinction la plus importante à comprendre dans ce projet.
+
+<CardGroup cols={2}>
+  <Card title="🖥️ La machine ADMIN" icon="server">
+    Le poste **« chef d'orchestre »**.
+
+    - Affiche l'application (le tableau de bord), consultable dans un navigateur
+    - Reçoit toutes les données envoyées par les satellites
+    - Fait tourner les 3 intelligences artificielles
+    - Affiche les graphiques, les alertes et les prédictions
+    - C'est l'endroit où on clique sur **▶ Lancer la collecte**
+  </Card>
+  <Card title="💻 Les machines SATELLITES" icon="laptop">
+    Les autres ordinateurs du réseau que l'on veut surveiller.
+
+    - On y installe simplement un petit programme (le « launcher »)
+    - Il observe en silence le trafic réseau de la machine
+    - Il ne lit jamais le contenu — juste du comptage : combien, quand, quel type
+    - Il envoie ces informations vers la machine admin
+    - Une satellite ne montre rien à l'écran : elle collecte, c'est tout
+  </Card>
+</CardGroup>
+
+<Note>
+**En résumé** — Les machines satellites regardent et envoient l'information. La machine admin reçoit, analyse avec l'intelligence artificielle, et affiche des résultats clairs dans un tableau de bord.
+</Note>
+
+## Combien de satellites peut-on avoir ?
+
+Autant que nécessaire. Chaque nouvel ordinateur ajouté au réseau et équipé du launcher devient une source de données supplémentaire, visible et filtrable directement depuis le tableau de bord de l'admin.
