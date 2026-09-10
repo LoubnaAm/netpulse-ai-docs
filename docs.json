@@ -1,0 +1,36 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "NETPULSE AI",
+  "theme": "mint",
+  "colors": {
+    "primary": "#18B7A0",
+    "light": "#18B7A0",
+    "dark": "#0E7C70"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Découvrir NETPULSE",
+        "pages": [
+          "index",
+          "fonctionnalites",
+          "architecture"
+        ]
+      },
+      {
+        "group": "Utiliser l’application",
+        "pages": [
+          "installation",
+          "modules",
+          "collecte-temps-reel"
+        ]
+      },
+      {
+        "group": "Aide",
+        "pages": [
+          "depannage"
+        ]
+      }
+    ]
+  }
+}
