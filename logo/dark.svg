@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="52" viewBox="0 0 240 52" role="img" aria-label="NetPulse AI">
+  <rect x="4" y="8" width="36" height="36" rx="10" fill="#5B9BD5"/>
+  <path d="M13 26c0-6.1 5-11 11-11 3.3 0 6.3 1.4 8.3 3.7L29.7 22A7.2 7.2 0 1 0 30 27h6c-.5 6.3-5.8 11.2-12 11.2-6.6 0-12-5.4-12-12.2Z" fill="#fff"/>
+  <circle cx="24" cy="26" r="3.2" fill="#5B9BD5"/>
+  <text x="52" y="33" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700" fill="#F9FAFB">NetPulse AI</text>
+</svg>
